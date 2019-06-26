@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.page-wrapper{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header{
+  text-align: right;
+  padding: 20px;
+}
+
+.page-header .count-down{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #35b558;
+  font-size: 12px;
+  color: #35b558;
+  line-height: 20px;
+  text-align: center;
+}
+
+.page-body{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-body .count-number{
+  color: #35b558;
+  font-size: 82px;
+}
+
+.page-footer{
+  height: 100px;
+  text-align: center;
+}
+
+.page-footer .count-btn{
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  background-color: #35b558;
+  border: 0;
+  color: #fff;
+  outline: none;
+}
+
+.page-footer .count-btn:active{
+  opacity: .8;
+}
